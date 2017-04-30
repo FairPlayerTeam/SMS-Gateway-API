@@ -1,0 +1,26 @@
+<?php
+// Load the FairPlayer SMS Gateway API
+require_once dirname(__FILE__) . '/FairPlayerSms.php';
+ 
+// Send an SMS message
+try {
+    // Prepare the result
+    $result = FairPlayerSms::getInstance(
+        // API SMS Gateway URL
+        'http://example.com/fairplayer-sms.php',
+            
+        // API Key
+        'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            
+        // API Salt
+        'xxxxxxxx'
+    )->send('0999999999', 'Hello world!');
+    
+    // Get the Terminal ID and Message ID
+    list($terminalId, $messageId) = $result;
+} catch (Exception $exc) {
+    // SMS not sent
+    echo 'Exception: ' . $exc->getMessage();
+}
+
+/*EOF*/
