@@ -1,11 +1,11 @@
 # SMS Gateway API
 
-This is the official API for the **FairPlayer [SMS Terminal](https://play.google.com/store/apps/details?id=com.fairplayer.sms)** Android application and "WordPress SMS Gateway" plugin.
+This is the official API for the **FairPlayer [SMS Terminal](https://play.google.com/store/apps/details?id=com.fairplayer.sms)** Android application and **FairPlayer [SMS Gateway plugin](https://codecanyon.net/item/fairplayer-sms-gateway/19871881?ref=stephino)**.
 
 ## How it works ##
 
-1. Install the **SMS Terminal** on your Android device
-2. Download and install the **SMS Gateway** on your WordPress website
+1. Install the **[SMS Terminal](https://play.google.com/store/apps/details?id=com.fairplayer.sms)** on your Android device
+2. Download and install the **[SMS Gateway plugin](https://codecanyon.net/item/fairplayer-sms-gateway/19871881?ref=stephino)** on your WordPress website
 3. Follow the on-screen instructions and pair-up your device with your website
 
 Now you can send and receive SMS messages using your phone as an SMS terminal.
